@@ -13,7 +13,7 @@ public class Main {
 		leilao.propoe(new Lance(maria, 250.0));
 		
 		Avaliador leiloeiro = new Avaliador();
-		leiloeiro.avalia(leilao);		
+		leiloeiro.avalia(leilao);
 		
 		System.out.println(leiloeiro.getMaiorLance());
 		System.out.println(leiloeiro.getMenorLance());
